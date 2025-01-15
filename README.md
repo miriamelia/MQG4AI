@@ -151,7 +151,7 @@ Once the template is refined and its design tested, decentralized AI design-know
 > Pre-requisite MQG4DK-contribution: 
 >> The RAI knowledge contribution needs to be positioned along the AI Lifecycle, aligned with the QG-format, and linked with TAI-risks and AI system information.
 
-Overall, we oriet our design towards criteria for AI standards, as outlined by the European Commission [here](https://publications.jrc.ec.europa.eu/repository/handle/JRC139430).
+Overall, we orient our design towards criteria for AI standards, as outlined by the European Commission [here](https://publications.jrc.ec.europa.eu/repository/handle/JRC139430).
 
 <br>
 
