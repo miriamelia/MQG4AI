@@ -37,7 +37,7 @@ Information on the lifecycle implementation:
 
 <br>
 
-> Four fundamental principles of MQG4AI design towards overall risk mitigation (they are closely tied to [general](./MQG4DesignKnowledge/1_System/Ethics_General/Ethics_General.md) and [use case-specific](./MQG4DesignKnowledge/1_System/Application/Ethics/Ethics_Specific.md) ethical questions):
+> Four fundamental principles of MQG4AI design towards overall risk mitigation (they are closely tied to [general](./MQG4DesignKnowledge/1_System/Ethics_General/Ethics_General.md) and [use case-specific](./MQG4DesignKnowledge/1_System/Application/Ethics_Specific/Ethics_Specific.md) ethical questions):
 >> 1. **Domain-Embedding** - the true success can only be measured in the ever evolving real world, and domain-adaptation contributes towards interpretability.
 >> 2. **Stakeholder Inclusion** - a diverse compilation of stakeholders enables a comprehensive perspective on the designed AI system and its impact, promotes trustworthiness, while addressing AI literacy among all stakeholders.
 >> 3. **Interdependency Analysis** - sheding light on lifecycle-specific interdependencies ensures a robust implementation.

@@ -15,14 +15,14 @@ Unfair bias must be avoided, as it could could have multiple negative implicatio
 
 ALTAI:
 > - Did you establish a strategy or a set of procedures to avoid creating or reinforcing unfair bias in the AI system, both regarding the use of input data as well as for the algorithm design?
->> MQG4AI's design is intended to support this process through the inclusion of an [Ethics section for contributing stakeholders](../../../1_System/Application/Ethics/Ethics_Specific.md)
+>> MQG4AI's design is intended to support this process through the inclusion of an [Ethics section for contributing stakeholders](../../../1_System/Application/Ethics_Specific/Ethics_Specific.md)
 > - Did you consider diversity and representativeness of end-users and/or subjects in the data?
 >   - Did you test for specific target groups or problematic use cases?
 >   - Did you research and use publicly available technical tools, that are state-of-the-art, to improve your understanding of the data, model and performance?
 >   - Did you assess and put in place processes to test and monitor for potential biases during the entire lifecycle of the AI system (e.g. biases due to possible limitations stemming from the composition of the used data sets (lack of diversity, non-representativeness))?
 >   - Where relevant, did you consider diversity and representativeness of end-users and or subjects in the data?
 > - Did you put in place educational and awareness initiatives to help AI designers and AI developers be more aware of the possible bias they can inject in designing and developing the AI system?
->> MQG4AI's design is intended to support this process through the inclusion of an [Ethics section for contributing stakeholders](../../../1_System/Application/Ethics/Ethics_Specific.md)
+>> MQG4AI's design is intended to support this process through the inclusion of an [Ethics section for contributing stakeholders](../../../1_System/Application/Ethics_Specific/Ethics_Specific.md)
 > - Did you ensure a mechanism that allows for the flagging of issues related to bias, discrimination or poor performance of the AI system?
 >   - Did you establish clear steps and ways of communicating on how and to whom such issues can be raised?
 >   - Did you identify the subjects that could potentially be (in)directly affected by the AI system, in addition to the (end-)users and/or subjects?
@@ -31,7 +31,7 @@ ALTAI:
 >   - Did you consult with the impacted communities about the correct definition of fairness, i.e. representatives of elderly persons or persons with disabilities?
 >   - Did you ensure a quantitative analysis or metrics to measure and test the applied definition of fairness?
 >   - Did you establish mechanisms to ensure fairness in your AI system?
->> MQG4AI's design is intended to support this process through the inclusion of an [Ethics section for contributing stakeholders](../../../1_System/Application/Ethics/Ethics_Specific.md)
+>> MQG4AI's design is intended to support this process through the inclusion of an [Ethics section for contributing stakeholders](../../../1_System/Application/Ethics_Specific/Ethics_Specific.md)
 
 ##### Accessibility and Universal Design
 

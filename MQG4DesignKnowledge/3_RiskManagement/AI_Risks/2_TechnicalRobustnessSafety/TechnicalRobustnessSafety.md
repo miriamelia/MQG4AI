@@ -43,7 +43,7 @@ ALTAI:
 
 ##### Accuracy
 ALTAI:
-> - Could a low level of accuracy of the AI system have critical, adversarial or damaging [consequences](../../../1_System/Application/Ethics/Ethics_Specific.md)?
+> - Could a low level of accuracy of the AI system have critical, adversarial or damaging [consequences](../../../1_System/Application/Ethics_Specific/Ethics_Specific.md)?
 > - Did you put in place measures to ensure that the data (including training data) used to develop the AI system is up-to-date, of high quality, complete and representative of the environment the system will be deployed in?
 > - Did you put in place a series of steps to monitor, and document the AI system’s accuracy?
 >> MQG4AI's design is intended to support this process, e.g. through information extraction during development, in form of a post-market monitoring information layer of [leaf-Quality Gates](../../../../templates/Template_LeafQG.md) 
