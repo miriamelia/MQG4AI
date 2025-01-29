@@ -2,7 +2,7 @@
 tags: [{Name: Electrocardiogram_(ECG)_AlarmingGuardFunctionality}, {Intent: FictionalUseCase}, {Applicability: EmergencyMedicine}, {Usage Example: MultiLabelClassificationPerformanceMetrics}]
 ---
 
-## Electrocardiogram (ECG) Alarming Guard Functionality (Use in Emergency Medicine)
+## Electrocardiogram (ECG) Alarming Guard Functionality *Custodian* (Use in Emergency Medicine)
 
 ### Purpose
 We aim to improve patient welfare:
@@ -15,7 +15,7 @@ Multi-label classification of 12-Lead ECGs
 The cooperation between medical personnel and the intelligent system is expected to generally improve critical diagnosis.
 
 ### Environment of Use
-The fictional real-world setting is an intelligent system that is used in emergency medicine (e.g. ambulances and general practitioner's practices), where the medical personnel is not specialized in ECGs. 
+The fictional real-world setting is an intelligent system that is used in emergency medicine (e.g. ambulances and general practitioner's practices), where the medical personnel is not specialized in ECGs and patients at risk could appear. 
 
 ### Intended Workflow
 t.b.d.
