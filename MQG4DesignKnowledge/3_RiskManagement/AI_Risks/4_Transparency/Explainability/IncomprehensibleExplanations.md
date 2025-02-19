@@ -17,12 +17,15 @@ These methods need to be explained to the user to ensure a trustworthy applicati
 The hazard of incomprehensible explanations to the user:
 This risk arises when the methods of explanation and their presentation are not adapted to the user's capacity of comprehension confusion and misunderstanding. Explanations that are too vague, overly complex or are not well framed may prevent the user from understanding the model's reasoning on how to apply the results in a particular context, which may reduce trust in the system.
 
-#### Risk evaluation
+#### Risk analysis
 
 ##### Severity of harm
 Depends on the application of the explainability technique
 
 ##### Probability of Occurence
+Depends on the application of the explainability technique
+
+#### Risk evaluation
 Depends on the application of the explainability technique
 
 #### Risk control

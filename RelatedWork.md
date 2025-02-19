@@ -2,7 +2,7 @@
 
 The proposed template structure is based on the following contributions.
 Related publications inlcude:   
-- [MQG4AI paper focusing on explainability]() will be added shortly
+- [MQG4AI paper focusing on explainability (Preprint)](https://arxiv.org/abs/2502.11889)
 - [Reliable Performance Evaluation Metrics Selection for ECG multi-label classification paper](https://ieeexplore.ieee.org/document/10570023)
 - [First MQG4AI vision paper](https://www.scitepress.org/Link.aspx?doi=10.5220/0012121300003538)
 - [Responsible AI paper introducing the holistic approach]() will be added shortly

@@ -12,12 +12,15 @@ tags: [{Name: }, {Intent: TAI-criteria}, {Applicability: Specific TAI Criteria S
 
 #### Risk: 
 
-
-#### Risk evaluation
+#### Risk analysis
+> Identify and estimate risks in alignment with the are of impact and possible (mis)use of the AI system
 
 ##### Severity of harm
 
 ##### Probability of Occurence
 
+#### Risk evaluation
+> Is the isentified risk acceptable?
 
 #### Risk control
+> What control measures are implemented? (aiming to result in acceprable risks)

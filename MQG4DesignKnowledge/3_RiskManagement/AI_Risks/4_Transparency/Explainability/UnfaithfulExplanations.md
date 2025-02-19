@@ -16,12 +16,15 @@ Consequently, methods for explanation need to be applied and evaluated. These me
 The hazard of unfaithful explanations:
 This risk arises when explanation methods fail to accurately reflect a model’s true reasoning, leading to misunderstandings of its decisions. Such explanations can misguide stakeholders, resulting in harmful actions throughout its lifecycle and eroding trust in the system based on hazardous information through unfaithful explanations.
 
-#### Risk evaluation
+#### Risk analysis
 
 ##### Severity of harm
 Depends on the application of the explainability technique
 
 ##### Probability of Occurence
+Depends on the application of the explainability technique
+
+#### Risk evaluation
 Depends on the application of the explainability technique
 
 #### Risk control

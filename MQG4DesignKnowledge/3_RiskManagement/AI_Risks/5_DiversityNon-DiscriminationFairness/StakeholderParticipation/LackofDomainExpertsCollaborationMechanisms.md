@@ -13,11 +13,12 @@ tags: [{Name: LackofDomainExpertsCollaborationMechanisms}, {Intent: DiversityNon
 
 #### Risk: *Lack of a Domain Experts and Collaboration mechanisms*
 
-#### Risk evaluation
+#### Risk analysis
 
 ##### Severity of harm
 
 ##### Probability of Occurence
 
+#### Risk evaluation
 
 #### Risk control

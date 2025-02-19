@@ -94,7 +94,7 @@ The naming-structure is intended to identify horizontal *Lifecycle*-interdepende
 #### QG-Tags
 Tags are relevant to identify use case-specific *Lifecycle*-QGs to pull the MQG4A-template. The other sections, as well as high-level generalizable *Lifecycle*-Collection-QGs are part of the default high-risk MQG4AI-template.
 
-- Outlook: Intelligent tag-search based on a .config file to kick-start the *Lifecycle* conceptualization stage. 
+- Outlook: Intelligent tag-search based on a .config file to kick-start the *Lifecycle* conceptualization stage. Also, with respect to MQG4A, possibly an additional project-internal tag-layer may be reasonable. Internal information could refer to template versions, for instance. 
 
 - Information structure of tags is based on:
     > [Software-Engineering Design Patterns for Machine Learning Applications](https://ieeexplore.ieee.org/document/9734272)
@@ -124,7 +124,7 @@ We propose to derive risks from regulatory requirements that are structured acco
 
 Concretely, we consider *Transparency* and *Technical Robustenss and Safety*, select one particular requirement each to illustrate how they relate with generalizable *AI risks*, and result in possible *risk control* implementation guidelines along a generalizable *Lifecycle*-template in form of identified Collection-QGs, while considering relevant *AI System* information. In addition, we illustrate the application of our proposed customizable *Leaf-QG template* towards RAI information management. 
 
-#### Transparency - Explainability
+#### MQG4DesignKnowledge: Transparency - Explainability
 Focusing on related risks, which are structured based on our proposed [generic risk template](./templates/Template_Risk.md) we propose a generic explanation lifecycle stage design, and illustrate the identification of interdependencies between the *Lifecycle*, and *Risk Management*, as well as the inclusion of a technical guideline, based on the publication [On the transferability of local model‐agnostic explanations of machine learning models to unseen data](https://www.researchgate.net/publication/381757544_On_the_transferability_of_local_model-agnostic_explanations_of_machine_learning_models_to_unseen_data), which proposes a possible risk control mechanism:
 
 > - Risk [Unfaithful Explanations](MQG4DesignKnowledge/3_RiskManagement/AI_Risks/4_Transparency/Explainability/UnfaithfulExplanations.md): [QG_FidelityRobustnessScore_(SHAPLIME)](MQG4DesignKnowledge/2_Lifecycle/2_Development/4_Model_Explanation/Method_Evaluation/Quality/QG_FidelityRobustnessScore_(SHAPLIME).md), based on the [leaf-QG format](./templates/Template_LeafQG.md)
@@ -132,7 +132,7 @@ Focusing on related risks, which are structured based on our proposed [generic r
 
 ![imgs/Lifecycle/XAI-lifecycle.png](imgs/Lifecycle/QGExplanation.png)   
 
-#### Technical Robustness and Safety - Accuracy - Unreliable Performance Evaluation Metrics
+#### MQG4DesignKnowledge: Technical Robustness and Safety - Accuracy - Unreliable Performance Evaluation Metrics
 We derive a compilation of QGs for responsible *Lifecycle* design decision making from the publication [Towards Certifiable AI in Medicine: Illustrated for Multi-label ECG Classification Performance Metrics](https://ieeexplore.ieee.org/document/10570023) to outline the inclusion of design knowledge in QG-format in the *Lifecycle Development* section, as well as how it relates with *Risk Management*, and *AI System* information (broached for *Application* and *Stakeholder*). Concretely, we include a comprehensive evaluation strategy centered around a [fictional use case situated in emergency medicine](./MQG4DesignKnowledge/1_System/Application/example_ECGAlarmingGuardFunctionality_(EmergencyMedicine).md), and derive QGs for (multi-label) classification performance evaluation that provide a generalizable structure towards a responsible implementation:
 
 > - Risk [Unreliable Performance Metrics](MQG4DesignKnowledge/3_RiskManagement/AI_Risks/2_TechnicalRobustnessSafety/Accuracy/UnreliablePerformanceMetrics.md): Illustrated reliable, and [generalizable performance evaluation metrics strategy](./MQG4DesignKnowledge/2_Lifecycle/2_Development/2_Model_Evaluation/PerformanceMetrics/) based on a compilation of QGs, closely related with domain knowledge towards risk mitigation.
@@ -142,9 +142,11 @@ We are at the beginning of designing the MQG4AI-template, and please contact us 
 
 - All *Lifecycle* stages need to be outlined in more detail for a generalizable design decision-making structure (generalizable Collection-QGs)
 - The Leaf-QG-format needs to be tested for applicability from different stages than *Development*, and specifically for the *Representation*-Dimension
-- QG-naming, -tagging, and the configurable pull version needs to be implemented, tested, and possibly refined
+- QG-naming, -tagging, and the configurable pull version needs to be implemented, tested, and possibly refined for MQG4DK and MQG4A scenarios
 - *AI System*, and *Risk Management*-sections need to be completed with high-risk AI information
 - Transfer this exemplary MQG4AI-template information structure to a web-application interface for usability, including a solid backend structure
+
+> Possibly, depending on design decisions and how close they correspond to other design decisions, leaf-QGs may be appended to leaf-QGs (or leaf-/collection-QG hypbrids may be designed). For instance, model configuration is closely linked to hyperparameters and the definition process of e.g. the loss function can be captured as a single leaf-QG it could be reasonable to append that leaf-QG to the corresponding leaf-QG model configuration. The definition of the loss-function can be based on different template versions that capture the empirical results. Therefore, towards practical applicability of MQG4AI, it is crucial to implement its building blocks in a customizable and flexible manner so that they can be organized in a reasonable manner by the respective staleholder, reflecting the chosen approach to lifecycle design.
 
 Once the template is refined and its design tested, decentralized AI design-knowledge contributions in form of MQG4DK Leaf-QGs to a prepared generalizable template-skeleton that comprises generlaizable *Lifecycle* Collection-QGs are possible, following the proposed TAI-centered workflow, if:
 

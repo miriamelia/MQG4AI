@@ -15,13 +15,17 @@ tags: [{Name: UnreliablePerformanceMeasurement}, {Intent: TechnicalRobustnessSaf
 The hazard of incorrect measurement information (as mentioned by ISO 14971 (comp. 35) for medical device risk management) can be transferred to performance evaluation metrics:
 - The sequence of events includes wrong measurements that are not detected by the user (or other stakeholders) and result in the hazardous information that leads to misinterpretation based on incorrect information, which can result in harmful actions.
 
-#### Risk evaluation
+#### Risk analysis
 
 ##### Severity of harm
 Performance evaluation metrics comprise the foundation for further testing, design decision-making, and any situation where the model's performance is evaluated. They need to be sound, aligned with the intended real world setting of the system, and their interpretation explained. Consequently, an unreliable performance evaluation strategy poses a very high risk, since it runs through the entire project.
 
 ##### Probability of Occurence
 High if misunderstanding of the (evolving) data distribution, application domain, and use case-adapted tuning objectives.
+
+
+#### Risk evaluation
+Depends on impact of metric's interpretation
 
 #### Risk control
 
