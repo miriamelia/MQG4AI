@@ -137,6 +137,48 @@ We derive a compilation of QGs for responsible *Lifecycle* design decision makin
 
 > - Risk [Unreliable Performance Metrics](MQG4DesignKnowledge/3_RiskManagement/AI_Risks/2_TechnicalRobustnessSafety/Accuracy/UnreliablePerformanceMetrics.md): Illustrated reliable, and [generalizable performance evaluation metrics strategy](./MQG4DesignKnowledge/2_Lifecycle/2_Development/2_Model_Evaluation/PerformanceMetrics/) based on a compilation of QGs, closely related with domain knowledge towards risk mitigation.
 
+#### MQG4Application simulated for Segmentation Model Selection
+We simulate different 4 template versions centered around a segmentation model, which is embedded within a [medical software *EsophagusVisualization* for medical research on the rare disease Achalasia](https://www.researchgate.net/publication/372490765_PRECISION_MEDICINE_FOR_ACHALASIA_DIAGNOSIS_A_MULTI-MODAL_AND_INTERDISCIPLINARY_APPROACH_FOR_TRAINING_DATA_GENERATION?channel=doi&linkId=64ba16b8c41fb852dd8c935b&showFulltext=true). The template versions are organized according to pre-, intra-, and post-selection information centered around the design decision, which model configuration to select (= our view on the illustrated MQG4A scenario). It is closely linked with data preprocessing and performance evaluation. Next steps include further optimization of the selected model. Disclaimer: We aim to illustrate what a possible MQG4A-scenario could look like based on an easy-to-understand example, and our technical contribution is not the focus. 
+
+To highlight MQG4AI's customizability, compared to the comprehensive MQG4DK lifecycle structure, within MQG4TBESegmentation, some design decisions are combined within a single leaf-QG. This depends on the scope how thorough other related design decisions are considered. For instance, within MQG4DK, collection-QG DataPreprocessing may consist of multiple leaf-QGs including data splitting strategy and data augmentation. These considerations are sumarized within a single leaf-QG pre-preprocessing in our MQG4A-example. Overall, MQG4AI is envisioned to provide customizable and flexible building blocks that reflect design decisions and can be adjusted and combined as deemed reasonable for the use case, or design knowledge contribution at hand, while it is important to inlcude all related information. The proposed MQG4A-template versions are illustrated as follows, inspired by the Git-branching structure:
+
+![MQG4AVersions](imgs/MQG4AVersions.png){width=800 height=}
+
+The MQG4A-template versions related to intra-selection of two model configuration approaches only contain information that is relevant for the snapshot of our retrospective simulation / the design decision which model configuration to select. As a result, customizability allows for the creation of template snap-shots for design-decision making. Finally, the definition of reasonable QG-tags for MQG4A is part of future work, since the proposed MQG4DK knowledge organization structure may not apply within an individual project. QG contributions are organized as follows:
+- (foundation) v0_MQG4DK: comprehensive template as pulled from the design knowledge base MQG4DK. The current version does not contain additional information on concrete lifecycle design decision-making that is relevant to a segmentation use case.
+- (main) v1_MQG4TBESegmentation_(PreSelection): This template version contains information that is gathered before deciding which model configuration to apply: 
+    - System:
+        - [System-information on the application](./MQG4Application/v1_MQG4TBESegmentation_(PreSelection)/1_System/Application/TBE_Segmentation.md), as well as [domain knowledge on Achalasia](./MQG4Application/v1_MQG4TBESegmentation_(PreSelection)/1_System/Application/DomainKnowledge/Achalasia.md) 
+        - Simulated parts of [Documentation](./MQG4Application/v1_MQG4TBESegmentation_(PreSelection)/1_System/Documentation/Documentation.md) focusing on a user manual *(automation bias mitigation)*
+        - Outlined a selection of relevant [Stakeholders](./MQG4Application/v1_MQG4TBESegmentation_(PreSelection)/1_System/Stakeholder/Stakeholder_(TBESegmentation).md) focusing on development
+    - Lifecycle:
+        - [Data design input](./MQG4Application/v1_MQG4TBESegmentation_(PreSelection)/2_Lifecycle/1_Data/1_Acquisition/QG_DataDesignInput_(TBESegmentation).md)
+        - [Performance metrics selection](./MQG4Application/v1_MQG4TBESegmentation_(PreSelection)/2_Lifecycle/2_Development/2_Model_Evaluation/PerformanceMetrics/QG_PerformanceMetricsCompilation_(Segmentation).md)
+        - [Feedback loops](./MQG4Application/v1_MQG4TBESegmentation_(PreSelection)/2_Lifecycle/4_Maintenance/Support/QG_FeedbackLoops_(TBE_Segmentation).md) *(lack of collaboration mechanisms mitigation)*
+    - Risk Management:
+        - [Inaccurate model output](./MQG4Application/v1_MQG4TBESegmentation_(PreSelection)/3_RiskManagement/2_TechnicalRobustnessSafety/Accuracy/InaccurateModelOutput_(TBE_Segmentation).md), as main risk related to model selection
+        - [Lack of collaboration mechanisms](./MQG4Application/v1_MQG4TBESegmentation_(PreSelection)/3_RiskManagement/5_DiversityNon-DiscriminationFairness/StakeholderParticipation/LackofCollaborationMechanisms_(TBE_Segmentation).md), as a cause for possibly missing inaccurate model output during maintenance
+        - [Waste of computing resources](./MQG4Application/v1_MQG4TBESegmentation_(PreSelection)/3_RiskManagement/6_SocietalEnvironmentalWellbeing/EnvironmentalWellbeing/WasteOfComputingResources_(TBE_Segmentation).md), as a risk resulting from not using the segmentation model due to bad performance
+        - [Automation bias](./MQG4Application/v1_MQG4TBESegmentation_(PreSelection)/3_RiskManagement/1_HumanAgencyOversight/HumanOversight/AutomationBias_(TBE_Segmentation).md), as an identified cause of TBE segmentation model misuse 
+- (development) v1a_nnU-Net_(IntraSelection) comprises additional information on the performance of the state of the art for medical image segmentation on our TBE data set:
+    - Lifecycle:
+        - [Data preprocessing nn-Unet](./MQG4Application/v1a_nnU-Net_(IntraSelection)/1_Data/QG_DataPreprocessing_(nnU-Net).md)
+        - [Model configuration nn-Unet](./MQG4Application/v1a_nnU-Net_(IntraSelection)/2_Development/1_Model_Configuration/QG_nnU-Net_(StateOfTheArt).md)
+        - [Performance Evaluation nn-Unet](./MQG4Application/v1a_nnU-Net_(IntraSelection)/2_Development/2_Model_Evaluation/PerformanceMetrics/QG_PerformanceMetricsCompilation_(nnU-Net).md) - contains metrics and additional material in form of segmented model output on the test set
+- (development) v1b_RCA-IUnet-BarlowTwins_(IntraSelection) comprises additional information on the performance of a segemntation approach designed for scarce data and medical image segmentation on our TBE data set as comparison:
+    - Lifecycle:
+        - [Data preprocessing RCA-IUnet-BarlowTwins](v1b_RCA-IUnet-BarlowTwins_(IntraSelection)/1_Data/QG_DataPreprocessing_(RCA-IUNet-BarlowTwins))
+        - [Model configuration RCA-IUnet-BarlowTwins](./MQG4Application/v1b_RCA-IUnet-BarlowTwins_(IntraSelection)/2_Development/1_Model_Configuration/QG_RCA-IUnet-BarlowTwins_(Comparison).md)
+        - [Performance Evaluation RCA-IUnet-BarlowTwins](./MQG4Application/v1b_RCA-IUnet-BarlowTwins_(IntraSelection)/2_Development/2_Model_Evaluation/PerformanceMetrics/QG_PerformanceMetricsCompilation_(RCA-IUnet-BarlowTwins).md) - contains metrics and additional material in form of segmented model output on the test set
+- (main) v2_MQG4TBESegmentation_(PostSelection) extends v1_MQG4TBESegmentation_(PreSelection) with the selected model, links the identified risks with added QGs towards risk mitigation and appends optional additional QGs for post-selection steps:
+    - Lifecycle:
+        - [Data preprocessing nn-Unet](MQG4Application/v2_MQG4TBESegmentation_(PostSelection)/2_Lifecycle/1_Data/2_Utilization/2_Preprocessing/QG_DataPreprocessing_(nnU-Net).md) *(inaccurate model output mitigation)*
+        - [Model configuration nn-Unet](./MQG4Application/v2_MQG4TBESegmentation_(PostSelection)/2_Lifecycle/2_Development/1_Model_Configuration/QG_nnU-Net_(StateOfTheArt).md) *(inaccurate model output mitigation)*
+        - [Performance Evaluation nn-Unet](./MQG4Application/v2_MQG4TBESegmentation_(PostSelection)/2_Lifecycle/2_Development/2_Model_Evaluation/PerformanceMetrics/QG_PerformanceMetricsCompilation_(nnU-Net).md) *(inaccurate model output mitigation)*
+        - [Optimization of nn-Unet](./MQG4Application/v2_MQG4TBESegmentation_(PostSelection)/2_Lifecycle/2_Development/3_Model_Optimization/QG_ModelOptimization_(Development).md) *(inaccurate model output mitigation)*  -  outlook, next steps
+        - [Raw model output integration](./MQG4Application/v2_MQG4TBESegmentation_(PostSelection)/2_Lifecycle/1_Data/2_Utilization/3_ModelOutput/QG_RawModelOutput_(TBESegmentation).md) to ensure a seamless *EsophagusVisualization* workflow
+
+
 ### Next Steps
 We are at the beginning of designing the MQG4AI-template, and please contact us if you are interested in collaborating. Namely the following design aspects need to be tested in more detail, especially for MQG4A-scenarios:
 
