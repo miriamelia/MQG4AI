@@ -20,7 +20,7 @@ tags: [{Name: }, {Intent: TAI-criteria}, {Applicability: Specific TAI Criteria S
 ##### Probability of Occurence
 
 #### Risk evaluation
-> Is the isentified risk acceptable?
+> Is the identified risk acceptable?
 
 #### Risk control
 > What control measures are implemented? (aiming to result in acceprable risks)
