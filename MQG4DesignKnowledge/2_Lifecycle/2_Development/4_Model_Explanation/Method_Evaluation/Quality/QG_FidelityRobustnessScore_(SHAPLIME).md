@@ -124,14 +124,10 @@ introduce scenarios - this final metric will be 0 if fidelity is 0, otherwise if
 #### Evaluation
 > What are open questions when applying the generated content?
 
-- Fidelity and Robustness metrics were chosen as they are frequently mentioned in literature, and can be measured for different types of explanations. 
-
-- The proposed method is independent of domain and use case 
- > Assumption SHAP and LIME generate feature importance explanations, and indicate the importance the model gives each feature to make predictions. Consequently, the focus lies on the feature importance rank being similar for the most important features, as less important features are probably not as informative about the model.
- > > Therefore, we have defined the similarity of explanations (NDCG score) in terms of the similarity of the feature rank (order of features by feature importance value) and feature importance value, and it shouldn´t be affected by the topic and use case.
-
- Example:
- - SVM, MLP, and XGBoost models are used, and the score is tested on two different data sets.
+- *Why were the score metrics chosen?* Fidelity and robustness metrics were selected based on their frequent reference in the literature and their applicability across various types of explanations. 
+- *How well tested is the design decision-making method?* The score is tested on SVM, MLP, and XGBoost models across two different datasets. 
+- *What is the core assumption?* The method's key premise is that the model-agnostic SHAP and LIME methods generate feature importance explanations, which emphasize the significance of each feature in model predictions. As a result, the calculated score focuses on the similarity of feature importance ranks, as less important features are assumed to be less informative about the model. The similarity of explanations (measured by the NDCG score) is defined in terms of both the similarity of feature ranks (order of features by importance) and the actual feature importance values.
+- *How significant is the impact of the domain?* The focus on feature importance ensures that the method remains independent of specific domains or use cases, enabling broad applicability. 
 
 <br>
 
