@@ -78,7 +78,7 @@ No
 >   - Is overseen by a Human-in-the-Loop; 
     (capability for human intervention in every decision cycle of the system)
 
-Yes, the [physician using the application](../../../1_System/Stakeholder/3_Passive/Physician_(PassiveStakeholder).md)
+Yes, the [physician using the application](../../1_System/Stakeholder/3_Passive/Physician_(PassiveStakeholder).md)
 
 >   - Is overseen by a Human-on-the-Loop; 
     (capability for human intervention during the design cycle of the system and monitoring the system’s operation)
@@ -88,11 +88,11 @@ Yes
 >   - Is overseen by a Human-in-Command. 
     (capability to oversee the overall activity of the AI system (including its broader economic, societal, legal and ethical impact) and the ability to decide when and how to use the AI system in any particular situation)
 
-Yes, the [physician using the application](../../../1_System/Stakeholder/3_Passive/Physician_(PassiveStakeholder).md) may decide whether to apply the segmentation model
+Yes, the [physician using the application](../../1_System/Stakeholder/3_Passive/Physician_(PassiveStakeholder).md) may decide whether to apply the segmentation model
 
 > - Have the humans (human-in-the-loop, human-on-the-loop, human-in-command) been given specific training on how to exercise oversight?
 
-Yes, they were made aware, see [automation bias](./AutomationBias.md)
+Yes, they were made aware, see [automation bias](./HumanOversight/AutomationBias_(TBE_Segmentation).md)
 
 > - Did you establish any detection and response mechanisms for undesirable adverse effects of the AI system for the end-user or subject?
 

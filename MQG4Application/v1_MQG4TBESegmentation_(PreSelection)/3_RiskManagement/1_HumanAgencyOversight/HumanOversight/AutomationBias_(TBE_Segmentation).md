@@ -22,15 +22,15 @@ tags: [{Name: AutomationBias}, {Intent: HumanAgencyOversight_Risk}, {Applicabili
 
 ##### Probability of Occurence
 
-> Depends on [physician interacting with the software](../../../../1_System/Stakeholder/3_Passive/Physician_(PassiveStakeholder).md)
+> Depends on [physician interacting with the software](../../../1_System/Stakeholder/3_Passive/Physician_(PassiveStakeholder).md)
 
 #### Risk Evaluation
 
-> This is an acceptable risk, in combination with risk control of creating awarenss, since the  [physician interacting with the software](../../../../1_System/Stakeholder/3_Passive/Physician_(PassiveStakeholder).md) is trained regarding the recognition of the esophagus in TBE images and the probability is high that they will adjust the correct shape
+> This is an acceptable risk, in combination with risk control of creating awarenss, since the  [physician interacting with the software](../../../1_System/Stakeholder/3_Passive/Physician_(PassiveStakeholder).md) is trained regarding the recognition of the esophagus in TBE images and the probability is high that they will adjust the correct shape
 
 #### Risk control
 
-> Create awareness that the segmentation model may not perform correctly, and its application may be skipped if desired by the  [physician interacting with the software](../../../../1_System/Stakeholder/3_Passive/Physician_(PassiveStakeholder).md) through documentation
+> Create awareness that the segmentation model may not perform correctly, and its application may be skipped if desired by the  [physician interacting with the software](../../../1_System/Stakeholder/3_Passive/Physician_(PassiveStakeholder).md) through documentation
 
 ###### Overview of related QGs and information sections:
 

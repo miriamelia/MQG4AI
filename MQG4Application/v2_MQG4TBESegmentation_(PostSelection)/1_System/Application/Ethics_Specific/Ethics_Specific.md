@@ -8,13 +8,13 @@ This section provides room to integrate ethical discussions centered around AI t
 
 Concrete materials for application of the [DARE-method](https://pubmed.ncbi.nlm.nih.gov/39176659/) can be found [here](https://github.com/tha-digileg/DARE-Method/blob/main/README.md). It provides a gamification-oriented approach for practical ethics training.
 
-![](../../../../imgs/Ethics/DARE_Application_Illustrated.png)
+![](../../../../../imgs/Ethics/DARE_Application_Illustrated.png)
 > Envisioned ethics embedding with (agile) development, highlighting the iterative character. 
 >> - *A* focuses on the "what" of development, addressing the goals, requirements, and overall direction of the product.
 >> - *B* emphasizes the "how," concentrating on the processes, methods, and approaches used to achieve the goals.
 >> - *C* represents a moment of reflection, conducted before the start of a new iteration, to evaluate and adapt based on ethical and practical insights gained.
 
-![](../../../../imgs/Ethics/DARE-Grid.png)
+![](../../../../../imgs/Ethics/DARE-Grid.png)
 > The DARE-grid and flash cards, by focusing on these foundational (abstract) concepts, a comprehensive framework for RAI discussions emerges, constantly evolving in alignment withe project's cycles.
 
 Overall, we aim to provide an approach to consider the following questions focusing on contributing (= active and consulting) stakeholders:
@@ -27,7 +27,7 @@ Refer to [Ethics_General](../../Ethics_General/Ethics_General.md) for basic know
 In addition, MQG4AI's four fundamental design principles are envisioned to contribute towards risk mitigation by design. They are envisioned as possible "answers" to address the previously introduced RAI qualities that are intended to promote risk analysis (identification and evaluation). 
 > How are they realized in the context of the individual application?
 
-![](../../../../imgs/Lifecycle/AI_Lifecycle.png)
+![](../../../../../imgs/Lifecycle/AI_Lifecycle.png)
 
 
 <br>
