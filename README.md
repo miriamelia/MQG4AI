@@ -29,8 +29,9 @@ The proposed dual system is based on principles from [Design Science Research](h
 >> 4. **Risk Analysis & Mitigation** - all of the above contribute to a comprehensive risk analysis and mitigation, which is very dynamic, use case-specific, and necessitates addressing the black box character of complex AI techniques from various application-specific perspectives, shaping and aligning with the desired function in the real world.
 ![](./imgs/Lifecycle/AI_Lifecycle.png)
 
+<br>
 
-## MQG4AI Information Blocks: Towards Responsible AI through
+## MQG4AI Information Blocks: Towards Responsible AI
 
 MQG4AI *Information Blocks* address relevant contextual information. The proposed lifecycle blueprint design kit is envisioned to provide a unifying approach that bridges the gap between ethics, regulation, and accountable implementation [(RAI)](https://www.sciencedirect.com/science/article/pii/S1566253523002129), enabling human-AI collaboration through transparent and documented system design. MQG4AI is intended as a contribution to AI QMS, which summarizes requirements for high-risk AI, as introduced in Article 17 of the AI Act, bridging implementation and regulation. 
 
@@ -62,7 +63,7 @@ Information on the lifecycle implementation:
 
 <br> 
 
-## *Quality Gate* (QG) for *Lifecycle* Information Management
+## *Quality Gates* (QG) for *Lifecycle* Information Management
 
 Generic and customizable *Quality Gates* (QG) comprise the fundamental building block of MQG4AI for information linking with, and within the AI lifecycle. They are derived from traditional software engineering and project development, adapted to the AI context, and designed to incorporate AI-specific dynamics for high-quality information management, transformation and extraction. Lifecycle design decisions and design decision-making shape the (desired) quality of AI systems, and we emphasize AI knowledge management to monitor dynamic and use case-specific lifecycle information. As a result, QGs reflect the individual *Lifecycle* (MQG4A), and incorporate lifecycle design knowledge (MQG4DK). They link relevant information with other lifecycle QGs, as well as relevant contextual information, such as on the *AI System*, and *Risk Management*. 
 
