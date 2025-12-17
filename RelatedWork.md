@@ -6,7 +6,7 @@ Related publications inlcude:
 - [Reliable Performance Evaluation Metrics Selection for ECG multi-label classification paper](https://ieeexplore.ieee.org/document/10570023)
 - [First MQG4AI vision paper](https://www.scitepress.org/Link.aspx?doi=10.5220/0012121300003538)
 - [Responsible AI paper introducing the holistic approach](https://link.springer.com/article/10.1007/s43681-025-00666-z?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20250318&utm_content=10.1007/s43681-025-00666-z)
-- [Comprehensive intro to the MQG4AI concept in form of a dissertation]() will be added shortly
+- [Comprehensive intro to the MQG4AI concept in the form of a dissertation](https://opus.bibliothek.uni-augsburg.de/opus4/frontdoor/index/index/docId/126411)
 
 #### Standards, Recommendations and Publications
 
