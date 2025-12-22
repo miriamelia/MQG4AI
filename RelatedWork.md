@@ -1,6 +1,6 @@
-## Related Work MQG4AI Template
+## Related Work MQG4AI
 
-The proposed template structure is based on the following contributions.
+The proposed information structure is based on the following contributions.
 Related publications inlcude:   
 - [MQG4AI paper focusing on explainability (Preprint)](https://arxiv.org/abs/2502.11889)
 - [Reliable Performance Evaluation Metrics Selection for ECG multi-label classification paper](https://ieeexplore.ieee.org/document/10570023)
